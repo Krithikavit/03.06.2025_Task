@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Array pop</title>
+</head>
+<body>
+    <script>
+        var arr = [1,2,3,4];
+        var removed = arr.pop();
+        document.write("Removed element: " + removed + "<br>");
+        document.write("Array after pop " + arr);
+    </script>
+
+</body>
+</html>
