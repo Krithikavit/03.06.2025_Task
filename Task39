@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>JavaScript Array Method</title>
+</head>
+<body>
+    <script>
+        var arr = [15, 78, 23, 39];
+        function test(arr) {
+            return arr < 80;
+        }
+        var res = arr.some(test);
+
+        document.write("Its " + res);
+    </script>
+
+</body>
+</html>
