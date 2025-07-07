@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Array Slice</title>
+</head>
+<body>
+    <script>
+        var arr = ["AngularJS", "Node.js", "JQuery", "Bootstrap","hmtl"]
+        var result = arr.slice(1, 3);
+        document.writeln(result);
+    </script>
+
+</body>
+</html>
