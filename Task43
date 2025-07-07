@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>String Object and literal</title>
+</head>
+<body>
+    <script>
+        var stringname = new String("hello javascript string <br>");
+        var str='This is string literal'
+        document.write(stringname);
+        document.write(str);
+    </script>
+
+</body>
+</html>
