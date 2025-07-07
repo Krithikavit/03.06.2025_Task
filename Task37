@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Higher-Order Function </title>
+</head>
+<body>
+    <h2>Higher-Order Function</h2>
+    <script>
+    function applyOperation(a, b, operation) {
+      return operation(a, b);
+    }
+
+    function add(x, y) {
+      return x + y;
+    }
+
+    document.write("3 + 7 = " + applyOperation(3, 7, add));
+    </script>
+</body>
+</html>
