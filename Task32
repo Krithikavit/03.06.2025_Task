@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Array Sort</title>
+</head>
+<body>
+    <script>
+        var arr = ["AngularJS", "Node.js", "JQuery", "Bootstrap","hmtl"];
+        var result = arr.sort();
+        document.writeln(result);
+    </script>
+
+</body>
+</html>
