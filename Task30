@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Array Shift</title>
+</head>
+<body>
+    <script>
+        var arr = ["AngularJS", "Node.js", "JQuery", "Bootstrap","html"]
+        var result = arr.shift();
+        document.writeln(arr)
+    </script>
+
+</body>
+</html>
