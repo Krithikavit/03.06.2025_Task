@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Array Reverse</title>
+</head>
+<body>
+    <script>
+        var arr = ["AngularJS", "Node.js", "JQuery", "Bootstrap","html"];
+        var rev = arr.reverse();
+        document.write(rev);
+    </script>
+
+</body>
+</html>
