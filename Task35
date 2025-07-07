@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Callback Function</title>
+</head>
+<body>
+    <h2>Callback Function</h2>
+    <script>
+        function sayHello(callback) {
+            document.write("Inside sayHello function<br>");
+            callback();
+        }
+
+        function greeting() {
+            document.write("Hello from the callback function!<br>");
+        }
+
+        sayHello(greeting);
+    </script>
+</body>
+</html>
