@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Array Reverse</title>
+</head>
+<body>
+    <script>
+        var s2 = "   javascript trim    ";
+        var s3 = s2.trim();
+        document.write(s3)
+        
+    </script>
+
+</body>
+</html>
