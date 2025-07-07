@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>IIFE</title>
+</head>
+<body>
+    <h2>Immediately Invoked Function Expression (IIFE)</h2>
+    <script>
+    // IIFE: runs immediately
+    (function() {
+      document.write("This is an IIFE - it runs immediately!<br>");
+      document.write("This is an IIFE - it runs immediately!");
+    })();
+    </script>
+</body>
+</html>
