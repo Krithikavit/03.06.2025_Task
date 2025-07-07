@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>String  CharAt(index)</title>
+</head>
+<body>
+    <script>
+        var str = "javascript";
+        document.write(str.charAt(2));
+    </script>
+
+</body>
+</html>
