@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Array Extracted and Remaining </title>
+</head>
+<body>
+    <script>
+        var arr = ["AngularJS", "Node.js", "JQuery", "Bootstrap","hmtl"];
+        document.writeln("Original array: "+arr+" <br>");
+        document.writeln("Extracted Element: "+arr.pop()+" <br>");
+        document.writeln("Remaining Elements: "+arr);
+    </script>
+
+</body>
+</html>
