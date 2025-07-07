@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Strict Mode </title>
+</head>
+<body>
+    <h1>Strict Mode in JavaScript</h1>
+
+    <script>
+        "use strict";
+
+        
+        try {
+            x = 10; 
+        } catch (error) {
+            document.write("<p><strong>Strict mode caught an error:</strong> " + error.message + "</p>");
+        }
+
+       
+        let y = 20;
+        document.write("<p><strong>Correct variable y:</strong> " + y + "</p>");
+    </script>
+</body>
+</html>
